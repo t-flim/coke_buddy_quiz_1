@@ -135,6 +135,6 @@ function downloadResults() {
 
 // Event Listeners
 document.getElementById('start-btn').addEventListener('click', initQuiz);
-document.getElementById('download-btn').addEventListener('click', downloadResults);
+// document.getElementById('download-btn').addEventListener('click', downloadResults);
 document.getElementById('claim-btn').addEventListener('click', () => showPage('prize-page'));
 document.getElementById('return-btn').addEventListener('click', () => showPage('start-page'));
