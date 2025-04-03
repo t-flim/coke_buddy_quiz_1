@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Digital Savvy Are You?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <button id="download-btn" class="btn fixed-download-btn">DOWNLOAD RESULTS</button> -->
+    <div class="container">
+        <!-- Starting Page -->
+        <div id="start-page" class="page active">
+            <div class="content">
+                <h2 class="subtitle">GAME CORNER</h2>
+                <h1 class="title">HOW DIGITAL SAVVY ARE YOU?</h1>
+                <button id="start-btn" class="btn">START NOW</button>
+            </div>
+        </div>
+
+        <!-- Quiz Page -->
+        <div id="quiz-page" class="page">
+            <div class="content">
+                <h1 id="question" class="question"></h1>
+                <div id="options" class="options"></div>
+            </div>
+        </div>
+
+        <!-- Result Page -->
+        <div id="result-page" class="page">
+            <div class="content">
+                <h2 class="subtitle">YOUR SCORE:</h2>
+                <h1 id="score" class="title"></h1>
+                <h2 id="result-message" class="message"></h2>
+                <button id="claim-btn" class="btn">CLAIM YOUR PRIZE</button>
+            </div>
+        </div>
+
+        <!-- Prize Page -->
+        <div id="prize-page" class="page">
+            <div class="content">
+                <h1 class="title">CLAIM YOUR PRIZE</h1>
+                <h2 class="subtitle">THANK YOU FOR PLAYING!</h2>
+                <button id="return-btn" class="btn">PLAY AGAIN</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="utilities/jquery-3.7.1.min.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
